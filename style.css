@@ -309,6 +309,9 @@ section .title::after{
 }
 
 /* skills section styling */
+.skills .title::after{
+    content: "savoir faire";
+}
 
 .skills .skills-content .right span{
     font-weight: 500;
@@ -424,16 +427,19 @@ section .title::after{
         height: 75px;
    }
     .soft-skills .soft-skills-wrapper .h-boxes .box .box-text {
-        font-size: 1rem;
+        font-size: 0.63rem;
    }
     .technical-skills #skillCanvasContainer #skillCanvas {
         width: 100%;
+   }
+   section .title::after{
+    bottom: -28px;
    }
 }
 
 /* projects section styling */
 .projects .title::after{
-    content: "avec qui je travaille";
+    content: "";
 }
 .projects .carousel .card{
     background: #222;
