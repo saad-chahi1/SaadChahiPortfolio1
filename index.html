@@ -12,15 +12,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
 </head>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
+    <nav class="navbar navbar_fr">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#">Chahi<span>.io</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Accueil</a></li>
                 <li><a href="#about" class="menu-btn">À propos</a></li>
@@ -28,6 +27,7 @@
                 <li><a href="#skills" class="menu-btn">Compétences</a></li>
                 <li><a href="#projects" class="menu-btn">Projets réalisés</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -59,7 +59,7 @@
                     <div class="text">Je suis Saad CHAHI <span class="typing-2"></span></div>
                     <p>Ingénieur spécialisé dans le développement web front-end et back-end. Ma passion réside dans l'exploration des codes, l'apprentissage continu, la résolution de problèmes et l'assistance aux autres. Travailler en équipe est une source d'inspiration pour moi, et je contribue activement aux projets auxquels je participe. Opérationnel à toutes les étapes d'un projet (conception, design, réalisation, formation client, déploiement), j'attache une grande importance au contact et à l'échange pour atteindre les objectifs fixés.</p>
                     <p>Vous avez des questions ? Contactez-moi.</p>
-                    <a href="./CV - Saad CHAHI .NET.pdf" target="_blank" 
+                    <a href="./CV - Saad CHAHI.pdf" target="_blank" 
                     type="application/octet-stream" download="yourpdf.pdf">Télécharger mon CV</a>
                 </div>
             </div>
@@ -266,13 +266,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
     <script>
+
+        //Skills Sphere
         const Texts = [
-            'HTML', 'CSS', 'TYPESCRIPT', 'xUnit', 'PostgreSQL',
-            'Angular', 'C#', '.NET CORE', 'LDAP',
+            'HTML', 'CSS', 'TYPESCRIPT',
+            'Angular', 'C#', '.NET CORE', 'Xunit',
             'Postman', 'SQL Server', 'Angular Material',
             '.NET MVC', 'IIS', 'MySQL', 'Visual studio',
             'Jira', 'Bitbucket', 'Slack', 'AWS', 'Lambda', 
-            'SQS', 'CDK', 'CloudWatch', 'PrimeNG', 'Docker'
+            'SQS', 'CDK', 'CloudWatch', 'Docker', 'Oracle'
         ];
 
         var tagCloud = TagCloud('.Sphere', Texts, {
@@ -294,7 +296,7 @@
         });
 
         // Giving color to each text in sphere
-        var color = '#FF5733 ';
+        var color = '#126f94';
         document.querySelector('.Sphere').style.color = color;
     </script>
 
